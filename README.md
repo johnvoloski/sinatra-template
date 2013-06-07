@@ -1,4 +1,2 @@
-sinatra-template
-================
-
-Sinatra Template
+Sinatra Template for Development
+================================
