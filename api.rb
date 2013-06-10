@@ -27,17 +27,17 @@ module Api
   end
 
   # Autoload Models
-  Dir[File.join(File.dirname(__FILE__), 'app', 'controllers/*.rb')].each do |f|
+  Dir[File.join(File.dirname(__FILE__), 'app', 'models/*.rb')].each do |f|
     autoload File.basename(f, '.rb').camelize.to_sym, f
   end
 
   # Autoload Resources
-  Dir[File.join(File.dirname(__FILE__), 'app', 'controllers/*.rb')].each do |f|
+  Dir[File.join(File.dirname(__FILE__), 'app', 'resources/*.rb')].each do |f|
     autoload File.basename(f, '.rb').camelize.to_sym, f
   end
 
   # Autoload Validators
-  Dir[File.join(File.dirname(__FILE__), 'app', 'controllers/*.rb')].each do |f|
+  Dir[File.join(File.dirname(__FILE__), 'app', 'validators/*.rb')].each do |f|
     autoload File.basename(f, '.rb').camelize.to_sym, f
   end
 
