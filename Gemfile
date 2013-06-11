@@ -5,6 +5,8 @@ gem 'rack'
 gem 'rake'
 gem 'sinatra'
 gem 'rabl'
+gem 'activesupport', '~> 3.2.13'
+gem 'activemodel', '~> 3.2.13'
 
 group :test, :development do
   gem 'database_cleaner'
