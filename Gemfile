@@ -26,4 +26,5 @@ end
 
 group :development do
   gem 'pry'
+  gem 'pry-nav'
 end
