@@ -17,7 +17,6 @@ group :test do
   gem 'rspec'
   gem 'rack-test'
   gem 'cucumber'
-  gem 'capybara-webkit'
   gem 'headless'
   gem 'webmock'
   gem 'vcr'
