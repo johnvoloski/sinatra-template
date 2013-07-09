@@ -23,9 +23,6 @@ set :logging, false
 # Configure Rspec to Test
 RSpec.configure do |config|
   config.include Rack::Test::Methods
-  config.color_enabled = true
-  config.tty = true
-  config.formatter = :documentation
 end
 
 # Define Application
